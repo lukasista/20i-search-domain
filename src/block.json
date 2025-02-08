@@ -1,0 +1,14 @@
+{
+    "apiVersion": 2,
+    "name": "domain-search/block",
+    "title": "20i Domain Search",
+    "category": "widgets",
+    "icon": "search",
+    "description": "A block for searching available domains via 20i API.",
+    "supports": {
+        "html": false
+    },
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./editor.css",
+    "style": "file:./style.css"
+}
