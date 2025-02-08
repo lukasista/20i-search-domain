@@ -17,6 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'DOMAIN_SEARCH_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 // Načtení hlavního souboru pluginu při aktivaci pluginu
 require_once DOMAIN_SEARCH_PLUGIN_DIR . 'includes/class-block.php';
+require_once DOMAIN_SEARCH_PLUGIN_DIR . 'includes/class-rest-api.php';
 
 // Funkce pro inicializaci pluginu
 function domain_search_init() {
